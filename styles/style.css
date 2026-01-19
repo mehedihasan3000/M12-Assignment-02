@@ -3,7 +3,7 @@
 }
 @media screen and (max-width: 576px){
     nav{
-        background-image: url('../assets/hamburger-menu.png');
+        background-image: url('./assets/hamburger-menu.png');
         background-repeat: no-repeat;
         background-position: right;
         background-position-x: 90%;
