@@ -1,0 +1,54 @@
+.hide{
+    display: none !important;
+}
+@media screen and (max-width: 576px){
+    nav{
+        background-image: url('../assets/hamburger-menu.png');
+        background-repeat: no-repeat;
+        background-position: right;
+        background-position-x: 90%;
+    }
+    nav h1{
+        width: 100%;
+        padding-left: 1rem;
+    }
+    nav div, nav button{
+        display: none;
+    }
+    .hero-para{
+        text-align: center;
+    }
+    .podcast-green-icon{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .mobilevst{
+        flex-direction: column;
+    }
+    .mobilevst .host{
+        width: 70%;
+        margin-left: 3.8rem;
+    }
+    .host-text{
+        text-align: center;
+    }
+    .host-icon{
+        justify-content: center;
+    }
+    .footer{
+        width: 100%;
+    }
+    .footer-div{
+        flex-wrap: wrap;
+        font-size: larger;
+        justify-content: center;
+        gap: 15px;
+    }
+    footer h1{
+        text-align: center;
+        width: 80%;
+        font-weight: 700;
+        font-size: 3rem;
+    }
+}
